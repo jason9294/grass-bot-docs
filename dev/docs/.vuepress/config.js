@@ -1,11 +1,26 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'Discord grass bot',
+    description: 'grass bot',
     base: '/my_first_vuepress/',
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
+        smoothScroll: true,
         sidebar: [
-          '/',
-          '/Category_1/',
+            '/',
+            {
+              title: 'Daily',
+              path: '/daily/',
+              collapsable: false,
+              children: [
+                '/daily/1A2B'
+              ]
+            }
+        ],
+
+        nav: [
+            { text: 'Home', link: '/' }
         ]
-      }
-  }
+    }
+}
