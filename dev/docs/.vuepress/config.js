@@ -19,31 +19,19 @@ module.exports = {
                 sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
                     '/guide/daily/1A2B',
-                  '/guide/daily/covid-19',
+                    '/guide/daily/covid-19',
+                ]
+              },
+              {
+                title: '自訂義回覆',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: [
+                    '/guide/custom_reply/dictionary',
+                    '/guide/custom_reply/keyword'
                 ]
               }
             ],
-            '/daily/1A2B': [
-                {
-                  title: '每日功能',
-                  //path: '/',      // 可选的
-                  collapsable: false, // 可选的, 默认值是 true,
-                  sidebarDepth: 1,    // 可选的, 默认值是 1
-                  children: [   
-                    '/daily/1A2B.html#_1a2b-2',
-                    '/daily/1A2B.html#_1a-2b',
-                  ]
-                },
-                {
-                  title: '自訂回覆',
-                  //path: '/',      // 可选的
-                  collapsable: false, // 可选的, 默认值是 true,
-                  sidebarDepth: 1,    // 可选的, 默认值是 1
-                  children: [
-                    '/custom_reply/dictionary',
-                  ]
-                }
-              ],
 
             // fallback
             '/': [
@@ -52,7 +40,8 @@ module.exports = {
           },
 
         nav: [
-            { text: 'Home', link: '/' }
+            { text: 'Home', link: '/' },
+            { text: 'Guide', link: '/guide/' } 
         ]
     }
 }
