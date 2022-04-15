@@ -14,11 +14,11 @@ module.exports = {
                 '',
               {
                 title: '每日功能',
-                path: '/guide/daily/',      // 可选的
+                //path: '/guide/daily/',      // 可选的
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
-                  '/guide/daily/1A2B',
+                    '/guide/daily/1A2B',
                   '/guide/daily/covid-19',
                 ]
               }
@@ -29,8 +29,9 @@ module.exports = {
                   //path: '/',      // 可选的
                   collapsable: false, // 可选的, 默认值是 true,
                   sidebarDepth: 1,    // 可选的, 默认值是 1
-                  children: [
-                    '/daily/1A2B',
+                  children: [   
+                    '/daily/1A2B.html#_1a2b-2',
+                    '/daily/1A2B.html#_1a-2b',
                   ]
                 },
                 {
