@@ -34,6 +34,14 @@ module.exports = {
                     '/guide/custom_reply/dictionary',
                     '/guide/custom_reply/keyword'
                 ]
+              },
+              {
+                title: 'TRPG',
+                collapsable: false,
+                sidebarDepth: 0,
+                children: [
+                    '/guide/trpg/dice',
+                ]
               }
             ],
 
