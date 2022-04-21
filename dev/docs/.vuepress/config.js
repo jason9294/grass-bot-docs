@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Discord grass bot',
     description: 'grass bot',
-    base: '/my_first_vuepress/',
+    base: '/grass-bot-docs/',
 
     plugins: ['@vuepress/back-to-top'],
 
